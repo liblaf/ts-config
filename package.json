@@ -1,0 +1,42 @@
+{
+  "name": "@liblaf/config",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/liblaf/ts-config",
+  "bugs": {
+    "url": "https://github.com/liblaf/ts-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "liblaf",
+    "url": "https://github.com/liblaf",
+    "email": "30631553+liblaf@users.noreply.github.com"
+  },
+  "files": [
+    "./config"
+  ],
+  "exports": {
+    "./biome": "./config/biome.jsonc",
+    "./tsconfig": "./config/tsconfig.json"
+  },
+  "type": "module",
+  "repository": "github:liblaf/ts-config",
+  "funding": {
+    "url": "https://github.com/liblaf/ts-config?sponsor=1",
+    "type": "github"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "provenance": true
+  },
+  "readme": "./README.md"
+}
