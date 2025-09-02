@@ -21,7 +21,10 @@
     "./tsconfig": "./config/tsconfig.json"
   },
   "type": "module",
-  "repository": "github:liblaf/ts-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liblaf/ts-config.git"
+  },
   "funding": {
     "url": "https://github.com/liblaf/ts-config?sponsor=1",
     "type": "github"

@@ -37,6 +37,5 @@
     "skipLibCheck": true,
     "declaration": true,
     "isolatedDeclarations": true
-  },
-  "exclude": ["bunup.config.ts", "dist", "node_modules"]
+  }
 }
