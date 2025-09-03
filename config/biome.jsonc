@@ -4,6 +4,7 @@
   "files": {
     "includes": [
       "**",
+      "!**/.manifest.json", // .config/release-please/.manifest.json
       "!**/worker-configuration.d.ts" // ref: <https://developers.cloudflare.com/workers/languages/typescript/>
     ],
     "ignoreUnknown": true
