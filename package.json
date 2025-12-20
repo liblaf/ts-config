@@ -7,39 +7,44 @@
   "bugs": {
     "url": "https://github.com/liblaf/ts-config/issues"
   },
+  "repository": "github:liblaf/ts-config",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/liblaf/ts-config?sponsor=1"
+  },
   "license": "MIT",
   "author": {
     "name": "liblaf",
-    "url": "https://github.com/liblaf",
-    "email": "30631553+liblaf@users.noreply.github.com"
+    "email": "30631553+liblaf@users.noreply.github.com",
+    "url": "https://github.com/liblaf"
   },
-  "files": [
-    "./config"
-  ],
+  "type": "module",
   "exports": {
     "./biome": "./config/biome.jsonc",
     "./tsconfig": "./config/tsconfig.json"
   },
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liblaf/ts-config.git"
-  },
-  "funding": {
-    "url": "https://github.com/liblaf/ts-config?sponsor=1",
-    "type": "github"
+  "files": [
+    "./config"
+  ],
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-packagejson"
+    ],
+    "trailingComma": "none"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2",
-    "typescript": "^5"
+    "@biomejs/biome": "^2.3.10",
+    "prettier": "^3.7.4",
+    "prettier-plugin-packagejson": "^2.5.20",
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/",
-    "provenance": true
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
   },
   "readme": "./README.md"
 }

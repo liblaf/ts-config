@@ -36,5 +36,10 @@
     "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2
+  },
+  "json": {
+    "formatter": {
+      "enabled": false
+    }
   }
 }
