@@ -7,6 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3](https://github.com/liblaf/ts-config/releases/tag/v0.1.3) - 2025-12-26
+
+### 🐛 Bug Fixes
+
+- configure biome to warn on import type usage with separated style - [445894e](https://github.com/liblaf/ts-config/commit/445894e3162aa4fee6a913a5e550ec92feb6bd93) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf) made their first contribution
+- [@copier-update[bot]](https://github.com/apps/copier-update) made their first contribution in [#8](https://github.com/liblaf/ts-config/pull/8)
+
 ## [0.1.2](https://github.com/liblaf/ts-config/releases/tag/v0.1.2) - 2025-12-20
 
 ### ✨ Features
@@ -15,8 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@liblaf](https://github.com/liblaf) made their first contribution
-- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+- [@liblaf](https://github.com/liblaf)
 - [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#4](https://github.com/liblaf/ts-config/pull/4)
 
 ## [0.1.1](https://github.com/liblaf/ts-config/releases/tag/v0.1.1) - 2025-09-03
