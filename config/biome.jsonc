@@ -19,7 +19,13 @@
     "rules": {
       "recommended": true,
       "style": {
-        "noNonNullAssertion": "off"
+        "noNonNullAssertion": "off",
+        "useImportType": {
+          "level": "warn",
+          "options": {
+            "style": "separatedType"
+          }
+        }
       },
       "suspicious": {
         "noExplicitAny": "off"
