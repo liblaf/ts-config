@@ -19,13 +19,30 @@
     "url": "https://github.com/liblaf/ts-config?sponsor=1"
   },
   "files": [
-    "./src"
+    "dist"
   ],
   "type": "module",
   "exports": {
-    "./oxfmt": "./src/oxfmt.config.ts",
-    "./oxlint": "./src/oxlint.config.ts",
-    "./tsconfig": "./src/tsconfig.json"
+    "./oxlint": {
+      "import": {
+        "types": "./dist/oxlint.config.d.ts",
+        "default": "./dist/oxlint.config.js"
+      }
+    },
+    "./oxfmt": {
+      "import": {
+        "types": "./dist/oxfmt.config.d.ts",
+        "default": "./dist/oxfmt.config.js"
+      }
+    },
+    "./bunup": {
+      "import": {
+        "types": "./dist/bunup.config.d.ts",
+        "default": "./dist/bunup.config.js"
+      }
+    },
+    "./tsconfig": "./dist/tsconfig.json",
+    "./package.json": "./package.json"
   },
   "publishConfig": {
     "access": "public",
@@ -33,24 +50,33 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "build": "bunup",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "prepack": "bun run build",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/node": "25.6.0",
+    "bunup": "0.16.31",
     "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
     "oxlint-tsgolint": "0.21.1",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
+    "bunup": "^0.16",
     "oxfmt": "^0.46",
     "oxlint": "^1",
     "oxlint-tsgolint": "^0.21",
-    "typescript": "^5 || ^6"
+    "typescript": "^6"
   },
   "peerDependenciesMeta": {
+    "bunup": {
+      "optional": true
+    },
     "oxfmt": {
       "optional": true
     },

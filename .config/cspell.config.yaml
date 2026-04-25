@@ -14,6 +14,7 @@ ignoreRandomStrings: true
 maxFileSize: 500KB
 useGitignore: true
 words:
+  - bunup
   - dotenv
   - liblaf
   - mkdocs

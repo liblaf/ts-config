@@ -1,5 +1,14 @@
 {
+  // ref: <https://www.typescriptlang.org/tsconfig/>
   "$schema": "https://www.schemastore.org/tsconfig.json",
   "extends": "./src/tsconfig.json",
-  "exclude": ["**/*.config.ts"]
+  "compilerOptions": {
+    "paths": {
+      "@liblaf/config/bunup": ["./src/bunup.config.ts"],
+      "@liblaf/config/oxfmt": ["./src/oxfmt.config.ts"],
+      "@liblaf/config/oxlint": ["./src/oxlint.config.ts"],
+      "@liblaf/config/tsconfig": ["./src/tsconfig.json"]
+    },
+    "types": ["node"]
+  }
 }
