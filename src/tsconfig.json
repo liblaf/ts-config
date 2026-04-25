@@ -1,10 +1,11 @@
 {
+  // ref: <https://www.typescriptlang.org/tsconfig/>
   "$schema": "https://www.schemastore.org/tsconfig.json",
   "compilerOptions": {
     // ref: <https://bun.sh/docs/typescript#suggested-compileroptions>
     // ref: <https://github.com/bunup/templates/blob/main/full-ts/tsconfig.json>
-    "target": "ES2023",
-    "module": "Preserve",
+    "target": "esnext",
+    "module": "preserve",
     "moduleDetection": "force",
 
     "moduleResolution": "bundler",
@@ -24,5 +25,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
-  }
+  },
+  "exclude": ["*.config.ts"]
 }

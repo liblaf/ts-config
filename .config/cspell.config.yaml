@@ -8,13 +8,18 @@ caseSensitive: false
 enableGlobDot: true
 ignorePaths:
   - .git/
-  - "*.lock"
   - cspell.*
+  - "*.lock"
 ignoreRandomStrings: true
 maxFileSize: 500KB
 useGitignore: true
 words:
-  - direnv
   - dotenv
   - liblaf
-  - uuidgen
+  - mkdocs
+  - oxfmt
+  - oxlint
+  - pipx
+  - rumdl
+  - taiki
+  - tsgolint
