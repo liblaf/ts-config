@@ -7,6 +7,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.0](https://github.com/liblaf/ts-config/releases/tag/v0.3.0) - 2026-04-25
+
+### 💥 BREAKING CHANGES
+
+- package subpath exports now point to built `dist` artifacts, so consumers must use the packaged build output instead of importing TypeScript source files directly. - [92a33c6](https://github.com/liblaf/ts-config/commit/92a33c60a34ace918baed3cbce25c3bd15de9c74) by [@liblaf](https://github.com/liblaf)
+
+### ✨ Features
+
+- **\[breaking\]** publish built config entry points - [92a33c6](https://github.com/liblaf/ts-config/commit/92a33c60a34ace918baed3cbce25c3bd15de9c74) by [@liblaf](https://github.com/liblaf)
+
+### ⚙️ Continuous Integrations
+
+- use latest LTS Node for TypeScript release - [f694459](https://github.com/liblaf/ts-config/commit/f694459524f83c2b5136c60d0b735a03c333086b) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
 ## [v0.2.0](https://github.com/liblaf/ts-config/releases/tag/v0.2.0) - 2026-04-25
 
 ### 💥 BREAKING CHANGES
@@ -19,8 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@liblaf](https://github.com/liblaf)
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please) made their first contribution in [#25](https://github.com/liblaf/ts-config/pull/25)
 - [@renovate[bot]](https://github.com/apps/renovate)
+- [@liblaf](https://github.com/liblaf)
 - [@liblaf[bot]](https://github.com/apps/liblaf)
 
 ## [v0.1.3](https://github.com/liblaf/ts-config/releases/tag/v0.1.3) - 2025-12-26
