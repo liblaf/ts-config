@@ -63,14 +63,14 @@
     "bunup": "0.16.31",
     "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
-    "oxlint-tsgolint": "0.21.1",
+    "oxlint-tsgolint": "0.22.0",
     "typescript": "6.0.3"
   },
   "peerDependencies": {
     "bunup": "^0.16",
     "oxfmt": "^0.46",
     "oxlint": "^1",
-    "oxlint-tsgolint": "^0.21",
+    "oxlint-tsgolint": "^0.22",
     "typescript": "^6"
   },
   "peerDependenciesMeta": {
