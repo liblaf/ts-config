@@ -7,6 +7,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.1](https://github.com/liblaf/ts-config/releases/tag/v0.3.1) - 2026-04-25
+
+### 🐛 Bug Fixes
+
+- **(oxlint)** disable restrictive template expression rule - [815c836](https://github.com/liblaf/ts-config/commit/815c836e2c8f0fcce1c82ed2e9d001cfb33969d6) by [@liblaf](https://github.com/liblaf)
+
+### 🛠 Builds
+
+- **(deps)** update oxlint-tsgolint to 0.22.0 - [6051158](https://github.com/liblaf/ts-config/commit/60511580235d91fbf6769b10c3a10ff3b97a9d1f) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
 ## [v0.3.0](https://github.com/liblaf/ts-config/releases/tag/v0.3.0) - 2026-04-25
 
 ### 💥 BREAKING CHANGES
@@ -23,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@liblaf](https://github.com/liblaf)
 
 ## [v0.2.0](https://github.com/liblaf/ts-config/releases/tag/v0.2.0) - 2026-04-25
