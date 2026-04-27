@@ -11,6 +11,7 @@ export default defineConfig({
   },
   plugins: ["eslint", "typescript", "unicorn", "oxc", "import", "jsdoc", "node", "vitest"],
   rules: {
+    "eslint/no-duplicate-imports": ["error", { allowSeparateTypeImports: true }],
     "import/consistent-type-specifier-style": "error",
     "typescript/restrict-template-expressions": "off",
   },
