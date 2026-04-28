@@ -1,6 +1,7 @@
 import { defineConfig } from "oxfmt";
 
 export default defineConfig({
+  ignorePatterns: ["**/.copier-answers.*.yaml"],
   jsdoc: true,
   sortImports: true,
   sortPackageJson: {
