@@ -7,6 +7,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.2](https://github.com/liblaf/ts-config/releases/tag/v0.3.2) - 2026-04-28
+
+### ✨ Features
+
+- **(oxlint)** flag duplicate imports - [fe82b48](https://github.com/liblaf/ts-config/commit/fe82b48e6be54588a58dcc71b71ff346203d9d21) by [@liblaf](https://github.com/liblaf)
+
+### 🐛 Bug Fixes
+
+- **(oxfmt)** ignore copier answer YAML files - [dfc7293](https://github.com/liblaf/ts-config/commit/dfc72931b044f005d23ab857e3ef0e26cc5096b9) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
 ## [v0.3.1](https://github.com/liblaf/ts-config/releases/tag/v0.3.1) - 2026-04-25
 
 ### 🐛 Bug Fixes
@@ -19,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@liblaf](https://github.com/liblaf)
 
 ## [v0.3.0](https://github.com/liblaf/ts-config/releases/tag/v0.3.0) - 2026-04-25
