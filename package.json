@@ -59,7 +59,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "26.6.2",
+    "@types/node": "26.6.3",
     "bunup": "0.16.32",
     "oxfmt": "0.70.0",
     "oxlint": "1.85.0",
